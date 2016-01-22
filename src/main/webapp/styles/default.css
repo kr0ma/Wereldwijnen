@@ -1,0 +1,176 @@
+body {
+	background-color: #FFEC9F;
+	font-family: sans-serif;
+}
+
+header {
+	background-image: url("../images/intro.jpg");
+	background-size : cover;
+	height: 120px;
+}
+
+nav {	
+	height: 80%;
+	font-size: large;
+	width: 50%;
+	margin : 0 auto;
+}
+
+nav h1{
+	width : 20%;
+	margin: 0 auto;
+	color: white;
+}
+
+nav h1 a{
+	color: white;
+}
+
+nav  a:hover {
+	text-decoration: none;
+}
+
+nav ul{
+	list-style: none;
+	margin: 1em 0 0 0;
+	padding: 0;
+	height: 20%;
+}
+
+nav>ul>li {
+	float: left;
+	position: relative;
+	margin-right: 1em;
+}
+
+nav div {
+	height: 50px;
+	position: absolute;
+	margin: 1em auto 0 24%;
+	padding: 0;
+}
+
+
+
+table,th,td {
+	border: 1px solid silver;
+	border-collapse: collapse;
+}
+
+thead tr,tfoot tr {
+	color: white;
+	background-color: gray;
+}
+
+td {
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #FAFAFA;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #E6E6E6;
+}
+
+tbody tr:hover {
+	background-color: #FFEC9F;
+}
+
+label {
+	cursor: pointer;
+}
+
+input,select {
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	margin-top: 0.2em;
+}
+
+input:focus,textarea:focus,select:focus {
+	background-color: #FFFFD6
+}
+
+input[type='checkbox'],input[type='radio'] {
+	display: inline;
+}
+
+label span {
+	background-color: red;
+	border-bottom-right-radius: 0.5em;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	margin-left: 0.5em;
+	padding: 0.5em;
+	color: white;
+}
+
+label span:empty {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.zonderbolletjes {
+	list-style: none;
+	margin-bottom: 0.2em;
+	padding: 0;
+	color: black;
+}
+
+.zonderbolletjes li {
+	display: inline;
+	margin-right: 0.2em;
+	color: black;
+}
+
+.zonderbolletjes li a {
+	display: inline;
+	margin-right: 0.2em;
+	color: black;
+}
+
+#logo {
+	width: 100%;
+}
+
+.knop {
+	text-decoration: none;
+}
+
+@media print {
+	nav {
+		display: none;
+	}
+}
+
+
+
+dt {
+	float: left;
+	width: 15em;
+}
+
+dd {
+	margin-left: 15em;
+	font-weight: bold;
+}
+
+.pagineren {
+	font-size: x-large;
+}
+
+.number{
+	text-align: right;
+}
+
